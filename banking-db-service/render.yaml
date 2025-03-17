@@ -3,7 +3,7 @@ services:
     name: banking-db-service
     env: docker
     plan: free # Or select an appropriate plan
-    dockerfilePath: Dockerfile
+    dockerfilePath: banking-db-service/Dockerfile
     region: ohio # Choose appropriate region
     envVars:
       - key: MONGODB_URI
